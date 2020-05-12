@@ -8,10 +8,14 @@ body {
     text-align: center;
 }
 
-img {
+#sectionB img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+li {
+    text-align: -webkit-match-parent;
 }
 
 h1 {
@@ -23,3 +27,25 @@ p {
     margin: 0;
     padding: 1em 0;
 }
+#sectionB li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+    width: 30%;
+}
+#sectionB {
+    padding: 2em 1em 1em;
+}
+
+#sectionB ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-content {
+     padding: 1.5em;
+}
+
